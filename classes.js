@@ -1,4 +1,4 @@
-class person {
+/*class person {
     constructor(language, hometown, favFood){
         this.language = language
         this.hometown = hometown
@@ -23,3 +23,12 @@ let postMan = new PostalWorker('English', 'Atlanta', 'Spaghetti')
 console.log(postMan.language);
 let postMan2 = new PostalWorker('Spanish', 'Charlotte')
 console.log(postMan2);
+*/
+
+class Rectangle {
+ constructor() {
+    console.log("The rectangle is being created!");
+ } 
+
+}
+let myRectangle1 = new Rectangle();
